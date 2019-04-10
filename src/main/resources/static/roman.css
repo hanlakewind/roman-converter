@@ -1,0 +1,8 @@
+.single-line {
+    text-decoration-line: overline;
+    -webkit-text-decoration-line: overline;
+}
+.double-line {
+    text-decoration-style: double;
+    -webkit-text-decoration-style: double;
+}

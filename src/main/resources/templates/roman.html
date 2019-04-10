@@ -1,0 +1,13 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Roman Numeral Converter</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="/roman.css"/>
+</head>
+<body>
+<span th:each="romanDigit : ${romanDigits}"
+      th:class="${romanDigit.overLineCount > 0} ? 'single-line'"
+      th:classappend="${romanDigit.overLineCount > 1} ? 'double-line'">[[${romanDigit.romanSymbol}]]</span>
+</body>
+</html>
