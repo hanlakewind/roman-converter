@@ -21,7 +21,7 @@ This will create a `target` directory that contains the output of the build. The
 
 To run the project, run the executable jar generated in the build step with command
 ```
-java -jar /path/to/the/executable.jar
+java -jar /path/to/the/roman-converter-1.0.0.jar
 ```
 This will start a Spring Boot web application that listens to port `8080`.
 
