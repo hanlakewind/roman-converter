@@ -9,6 +9,7 @@ A simple web service that converts an integer to roman numeral symbols. Currentl
 ### With Docker
 
 **Prerequisites**: Docker engine installed.
+
 To easily run the service is by using docker, simply run with command:
 ```
 docker run --name roman-converter -p 8080:8080 -d hanlakewind/roman-converter
@@ -18,7 +19,8 @@ This will create and run the service in a docker container named *roman-converte
 
 ### Download and Build Locally
 
-**Prerequisites**: JDK 8 installed
+**Prerequisites**: JDK 8 installed.
+
 To build the project locally, git clone this repo. Navigate to the root repository of the project and run
 ```
 ./mvnw clean install
