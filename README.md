@@ -15,7 +15,7 @@ To easily run the service is by using docker, simply run with command:
 docker run --name roman-converter -p 8080:8080 -d hanlakewind/roman-converter
 ```
 This will create and run the service in a docker container named *roman-converter* with port *8080* exposed.
-***The docker image is hosted in central docker hub. See the Dockerhub repo at [hanlakewind/roman-converter](https://cloud.docker.com/repository/docker/hanlakewind/roman-converter)***
+***The docker image is hosted in central docker hub. See the Dockerhub repo at [hanlakewind/roman-converter](https://hub.docker.com/r/hanlakewind/roman-converter)***
 
 ### Download and Build Locally
 
