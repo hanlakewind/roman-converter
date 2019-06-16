@@ -1,4 +1,4 @@
-FROM openjdk:8-jdk-stretch
+FROM openjdk:8-jdk-alpine
 
 ENV GIT_DOWNLOAD_URL https://github.com/hanlakewind/roman-converter/archive/master.zip
 
